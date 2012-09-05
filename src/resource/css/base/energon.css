@@ -1,0 +1,37 @@
+/**
+ * 知识库基础样式
+ * @author : yu.yuy
+ * @createTime : 2012-08-28
+ */
+header#header{
+	margin-top:40px;
+}
+.mod-doc{
+	margin-bottom: 50px;
+}
+.mod-doc header h1{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 4px solid #f05d5d;
+	color: #4C8CCD;
+}
+.mod-doc h2{
+	font-size: 16px;
+	color: #999;
+}
+.mod-doc .config em{
+	color: #4C8CCD;
+	font-style:normal;
+	font-size: 14px;
+	font-weight: 700;
+}
+.mod-doc .cell-content{
+	padding-left: 20px;
+}
+.mod-doc .demo .cell-content{
+	margin-left: 20px;
+	height: 60px;
+	line-height: 60px;
+	background-color: whiteSmoke;
+	text-align: center;
+}
