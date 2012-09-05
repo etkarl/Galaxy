@@ -3,5 +3,5 @@
 		document.write('<script src="'+url+'"></scr'+'ipt>');
 	};
 	importJavascript('/js/base/bootstrap.min.js');
-	importJavascript('/js/base/highcharts.js');
+	importJavascript('/js/module/sidenav.js');
 })();

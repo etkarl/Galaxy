@@ -1,6 +1,10 @@
-.mod-sidenav {
+.mod-sidenav{
+  padding-top: 20px;
   width: 228px;
-  margin: 30px 0 0;
+  height: 400px;
+}
+.mod-sidenav ul{
+  width: 228px;
   padding: 0;
   background-color: #fff;
   -webkit-border-radius: 6px;
@@ -10,24 +14,24 @@
      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
           box-shadow: 0 1px 4px rgba(0,0,0,.065);
 }
-.mod-sidenav > li > a {
+.mod-sidenav ul > li > a {
   display: block;
   *width: 190px;
   margin: 0 0 -1px;
   padding: 8px 14px;
   border: 1px solid #e5e5e5;
 }
-.mod-sidenav > li:first-child > a {
+.mod-sidenav ul > li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
      -moz-border-radius: 6px 6px 0 0;
           border-radius: 6px 6px 0 0;
 }
-.mod-sidenav > li:last-child > a {
+.mod-sidenav ul > li:last-child > a {
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
 }
-.mod-sidenav > .active > a {
+.mod-sidenav ul > .active > a {
   position: relative;
   z-index: 2;
   padding: 9px 15px;
@@ -44,7 +48,7 @@
   margin-right: -6px;
   opacity: .25;
 }
-.mod-sidenav > li > a:hover {
+.mod-sidenav ul > li > a:hover {
   background-color: #f5f5f5;
 }
 .mod-sidenav a:hover .icon-chevron-right {
@@ -52,11 +56,12 @@
 }
 .mod-sidenav .active .icon-chevron-right,
 .mod-sidenav .active a:hover .icon-chevron-right {
-  background-image: url(../img/glyphicons-halflings-white.png);
+  background-image: url(/images/glyphicons-halflings-white.png);
   opacity: 1;
 }
-.mod-sidenav.affix {
-  top: 40px;
+.mod-sidenav .affix {
+  position: fixed;
+  top: 60px;
 }
 .mod-sidenav.affix-bottom {
   position: absolute;
