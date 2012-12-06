@@ -1,3 +1,6 @@
 [submodule "src/resource/js/base/Energon"]
 	path = src/resource/js/base/Energon
 	url = git@github.com:yuyu1911/Energon.git
+[submodule "src/resource/js/lib/Energon"]
+	path = src/resource/js/lib/Energon
+	url = git://github.com/yuyu1911/Energon.git
