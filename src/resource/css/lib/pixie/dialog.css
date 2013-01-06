@@ -1,0 +1,31 @@
+/**
+ * 对话框样式
+ * @author : yu.yuy;
+ * @createTime : 2012-10-17;
+ */
+.e-dialog{
+	border: 2px solid #777;
+	display : none;
+}
+.e-dialog header{
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #d9d9d9;
+	background-color: #fafafa;
+}
+.e-dialog header .title{
+	padding-left: 19px;
+	font-weight: 700;
+	color: #333;
+}
+.e-dialog header .dialog-close-btn{
+	display: block;
+	float: right;
+	margin: 12px 20px 0 0;
+	width: 8px;
+	height: 8px;
+}
+.e-dialog .content{
+	padding: 19px;
+	background-color: #FFF;
+}

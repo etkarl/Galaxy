@@ -7,7 +7,8 @@
 (function(){
     var homepage = require("./app/controllers/homepage.js"),
     javascript = require("./app/controllers/javascript.js"),
-    css = require("./app/controllers/css.js");
+    css = require("./app/controllers/css.js"),
+    html = require("./app/controllers/html.js");
     module.exports = function(app){
     	//JS组件
     	app.get('/js', function(req, res){
@@ -16,6 +17,10 @@
         //css基础
     	app.get('/css', function(req, res){
             css.init(req, res);
+        });
+        //HTML基础
+        app.get('/html', function(req, res){
+            html.init(req, res);
         });
     };
 })();

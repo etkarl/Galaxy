@@ -36,3 +36,13 @@ header#header{
 	background-color: whiteSmoke;
 	text-align: center;
 }
+.page-html .nav>.html,
+.page-css .nav>.css,
+.page-js .nav>.js{
+	background-color: #222;
+}
+.page-html .nav>.html>a,
+.page-css .nav>.css>a,
+.page-js .nav>.js>a{
+	color: #FFF;
+}

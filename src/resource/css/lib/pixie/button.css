@@ -1,0 +1,131 @@
+/**
+ * 按钮样式
+ * @author : yu.yuy;
+ * @createTime : 2012-10-23;
+ */
+.e-btn{
+	display: inline-block;
+	padding: 7px 10px;
+	*padding: 7px 0;
+	border: 1px solid #ccc;
+	background-color: #f5f5f5;
+	line-height: 18px;
+	*height: 34px;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EFEFEF));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #EFEFEF 100%);
+	border-radius: 2px;
+	text-align: center;
+	vertical-align: middle;
+	color: #666;
+	cursor: pointer;
+	*display: inline;
+	*zoom: 1;
+}
+.e-btn:first-child {
+  *margin-left: 0;
+}
+.e-btn:hover{
+	background-color: #eee;
+	background-image: none;
+}
+.e-btn.active,
+.e-btn:active{
+	background-color: #eee;
+	background-image: none;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.e-btn[disabled],
+.e-btn[disabled="disabled"],
+.e-disabled,
+.e-btn:disabled{
+	background-color: #e6e6e6 !important;
+	background-image: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc !important;
+    color: #666;
+	opacity: 0.65;
+	cursor: not-allowed;
+}
+.e-btn[disabled]{
+	background-color: #e6e6e6 !important;
+	background-image: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc !important;
+    color: #666;
+	opacity: 0.65;
+	cursor: default;
+}
+.e-btn-small{
+	padding: 5px;
+}
+.e-btn-large{
+	padding: 9px 15px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.e-btn-huge{
+	padding: 12px 20px;
+	font-family: "\5FAE\8F6F\96C5\9ED1", /* 微软雅黑，默认特殊标题字体 */
+                "\9ED1\4F53", /* 黑体，win下替换字体 */
+                "\6587\6CC9\9A7F\6B63\9ED1\4F53", /* 文泉驿正黑体，unix/linux下替换字体 */
+                "\534E\6587\7EC6\9ED1"; /* 华文细黑，mac os下替换字体 */
+	font-size: 18px;
+}
+.e-btn-link{
+	background-color: transparent;
+	background-image: none;
+	border-radius: 0;
+	border: 0 none;
+}
+.e-btn-link:hover{
+	background-color: transparent;
+	color: #333;
+	text-decoration: underline;
+}
+.e-btn-link:active{
+	background-image: none;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.e-btn-primary{
+	border-color: #0e98d8;
+	background-color: #30a7ec;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #3aaff3 0%, #269fe6 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #3aaff3 0%, #269fe6 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #3aaff3 0%, #269fe6 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3aaff3), color-stop(1, #269fe6));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #3aaff3 0%, #269fe6 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #3aaff3 0%, #269fe6 100%);
+	color: #FFF;
+}
+.e-btn-primary:hover{
+	background-image: none;
+	background-color: #3798d1;
+	border-color: #0e98d8;
+}
+.e-btn-primary:active,
+.e-btn-primary.active{
+	background-color: #3798d1;
+}
