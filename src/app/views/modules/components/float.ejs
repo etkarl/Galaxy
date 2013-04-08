@@ -1,0 +1,81 @@
+                  <article id="ui-float" class="mod-doc">
+                    <header>
+                        <h1 class="title">ui-float:浮动条</h1>
+                    </header>
+                    <div class="content">
+                        <section class="overview">
+                            <h2 class="cell-title">介绍</h2>
+                            <div class="cell-content">
+                                页面左右侧的浮动条
+                            </div>
+                        </section>
+                        <section class="how">
+                            <h2 class="cell-title">如何使用</h2>
+                            <div class="cell-content">
+                                <pre class="sh_javascript">
+$.use('ui-float',function(){});</pre>
+                            </div>
+                        </section>
+                        <section class="HTML">
+                            <h2 class="cell-title">HTML结构</h2>
+                            <div class="cell-content">
+                                <pre class="sh_javascript">
+&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'leftmost','top':100,'isAlwaysShow':false}&quot;&gt;  
+    &lt;a title=&quot;最左边用户满意度调查&quot; href=&quot;#&quot;&gt;最左边用户满意度调查&lt;/a&gt;  
+&lt;/div&gt;</pre>
+                                <pre class="sh_javascript">
+&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'left','top':300,'isAlwaysShow':true}&quot;&gt;  
+    &lt;a title=&quot;左边用户满意度调查&quot; href=&quot;#&quot;&gt;左边用户满意度调查&lt;/a&gt;  
+&lt;/div&gt;</pre>
+                                <pre class="sh_javascript">
+&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'right','top':300,'isAlwaysShow':false}&quot;&gt;  
+    &lt;a title=&quot;右边用户满意度调查&quot; href=&quot;#&quot;&gt;右边用户满意度调查&lt;/a&gt;  
+&lt;/div&gt;</pre>
+                                <pre class="sh_javascript">
+&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'rightmost','top':100,'isAlwaysShow':true}&quot;&gt;  
+    &lt;a title=&quot;最右边用户满意度调查&quot; href=&quot;#&quot;&gt;最右边用户满意度调查&lt;/a&gt;  
+&lt;/div&gt;</pre>
+                            </div>
+                        </section>
+                        <section class="demo">
+                            <div class="cell-content">
+                                <a class="btn btn-large btn-danger" href="http://jsbin.com/iganuj/3" title="演示demo">demo</a>
+                            </div>
+                        </section>
+                        <section class="config">
+                            <h2 class="cell-title">配置</h2>
+                            <div class="cell-content">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>参数名</th>
+                                            <th>说明</th>
+                                            <th>类型</th>
+                                            <th>default</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><em>location</em></td>
+                                            <td>显示的位置(leftmost、left、right、rightmost)</td>
+                                            <td>String</td>
+                                            <td>left</td>
+                                        </tr>
+                                        <tr>
+                                            <td><em>top</em></td>
+                                            <td>离视窗上方的距离</td>
+                                            <td>Number</td>
+                                            <td>220</td>
+                                        </tr>
+                                        <tr>
+                                            <td><em>isAlwaysShow</em></td>
+                                            <td>是否无论视窗宽度如何小都要显示浮动条。</td>
+                                            <td>Boolean</td>
+                                            <td>false</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                  </article>
