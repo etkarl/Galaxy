@@ -9,6 +9,7 @@
     javascript = require("./app/controllers/javascript.js"),
     css = require("./app/controllers/css.js"),
     html = require("./app/controllers/html.js");
+    tools = require("./app/controllers/tools.js");
     module.exports = function(app){
     	//JS组件
     	app.get('/js', function(req, res){
@@ -21,6 +22,10 @@
         //HTML基础
         app.get('/html', function(req, res){
             html.init(req, res);
+        });
+        //工具
+        app.get('/tools', function (req, res) {
+            tools.init(req, res);
         });
     };
 })();

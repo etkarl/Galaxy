@@ -4,4 +4,5 @@
 	};
 	importJavascript('/js/base/bootstrap.min.js');
 	importJavascript('/js/module/sidenav.js');
+	importJavascript('/js/module/tools.js');
 })();

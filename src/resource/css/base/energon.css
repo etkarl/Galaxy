@@ -38,11 +38,13 @@ header#header{
 }
 .page-html .nav>.html,
 .page-css .nav>.css,
-.page-js .nav>.js{
+.page-js .nav>.js,
+.page-tools .nav>.tools{
 	background-color: #222;
 }
 .page-html .nav>.html>a,
 .page-css .nav>.css>a,
-.page-js .nav>.js>a{
+.page-js .nav>.js>a,
+.page-tools .nav>.tools>a{
 	color: #FFF;
 }

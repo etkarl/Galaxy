@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/css/global/merge.css"/>
         <link rel="stylesheet" href="/css/base/sh_emacs.min.css"/>
     </head>
-    <body class="page-css">
+    <body class="page-tools">
         <%- partial('modules/nav.ejs') %>
         <header id="header" class="container">
             <%- partial('modules/header.ejs') %>
@@ -16,13 +16,10 @@
         <div id="content" class="container">
               <div class="row">
                 <div class="span3">
-                    <%- partial('modules/sidenavs/css-sidenav.ejs') %>
+                    <%- partial('modules/sidenavs/tools-sidenav.ejs') %>
                 </div>
                 <div class="span9">
-                    <%- partial('modules/css/input.ejs') %>
-                    <%- partial('modules/css/select.ejs') %>
-                    <%- partial('modules/css/button.ejs') %>
-					<%- partial('modules/css/tab.ejs') %>
+                    <%- partial('modules/tools/htmlencode.ejs') %>
                 </div>
               </div>
         </div>

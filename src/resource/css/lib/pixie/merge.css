@@ -3,8 +3,9 @@
  * @author : yu.yuy
  * @createTime : 2013-01-04
  */
-@import url("/css/lib/pixie/button.css");
-@import url("/css/lib/pixie/input-box.css");
-@import url("/css/lib/pixie/dialog.css");
-@import url("/css/lib/pixie/select.css");
-@import url("/css/lib/pixie/tree.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/button.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/input-box.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/dialog.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/select.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/tree.css");
+@import url("http://a.tbcdn.cn/apps/tdata/css/lib/pixie/tab.css");

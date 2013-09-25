@@ -1,0 +1,29 @@
+body,ul,ol,li,dl,dt,dd,p,blockquote,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,table,tr,td,img,strong,em,div{margin:0;padding:0}
+body{font:12px/1.5 tahoma,arial,\5b8b\4f53;color:#333;-webkit-text-size-adjust:none;background:#fff;}
+ul,ol,li{list-style:none}
+.clearfix:after{content:"."; display:block; height:0; clear:both;visibility:hidden} 
+*html .clearfix{height:1%}  
+*+html .clearfix{height:1%} 
+fieldset,img {border:0}
+.tab-demo{
+    margin-left: 20px;
+    height: 60px;
+    background-color: #fff;
+}
+.tab-demo-left{
+    float:left;
+    width:20%;
+}
+.tab-demo-right{
+    float:left;
+    width:80%;
+}
+.tab-demo .sh_html{
+    float:left;
+    width:50%;
+}
+.tab-demo1{
+    float:left;
+    margin-left:5px;
+    width:40%;
+}
