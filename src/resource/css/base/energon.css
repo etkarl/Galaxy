@@ -36,6 +36,22 @@ header#header{
 	background-color: whiteSmoke;
 	text-align: center;
 }
+.mod-doc .how-crosswise .cell-content:after{
+	content:".";
+	display:block; 
+	height:0; 
+	clear:both;
+	visibility:hidden;
+}
+.mod-doc .how-crosswise .cell-content pre{
+	float: left;
+	width: 45%;
+	margin-right: 8px;
+}
+.mod-doc .how-crosswise .cell-content .demo{
+	float: left;
+	width: 50%;
+}
 .page-html .nav>.html,
 .page-css .nav>.css,
 .page-js .nav>.js,
