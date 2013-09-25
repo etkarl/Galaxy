@@ -5,11 +5,6 @@ ul,ol,li{list-style:none}
 *html .clearfix{height:1%}  
 *+html .clearfix{height:1%} 
 fieldset,img {border:0}
-.tab-demo{
-    margin-left: 20px;
-    height: 60px;
-    background-color: #fff;
-}
 .tab-demo-left{
     float:left;
     width:20%;
@@ -22,7 +17,7 @@ fieldset,img {border:0}
     float:left;
     width:50%;
 }
-.tab-demo1{
+.tab-demo-box{
     float:left;
     margin-left:5px;
     width:40%;
