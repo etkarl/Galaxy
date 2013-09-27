@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>plugin</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #main {
+                width: 960px;
+                margin: 0 auto;
+
+            }
+            #main p{
+                height: 150px;
+                background-color: #ccc;
+                text-align: center;
+                line-height: 150px;
+                font-size: 100px;
+                font-weight: 700;
+                color: #666;
+            }
+            .e_float_bar {
+                width: 20px;
+                height: 20px;
+                background-color: #9acd32;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+        </div>
+        <div class="e_float_bar" data-type="leftmost" data-collapse="yes">leftmost yes</div>
+        <div class="e_float_bar" data-type="leftmost" data-collapse="no" data-top="600px">leftmost no</div>
+        <div class="e_float_bar" data-type="rightmost" data-collapse="yes">rightmost yes</div>
+        <div class="e_float_bar" data-type="rightmost" data-collapse="no" data-top="600px">rightmost no</div>
+        <div class="e_float_bar" data-type="rightedge" data-collapse="yes" data-top="30px">rightedge yes</div>
+        <div class="e_float_bar" data-type="rightedge" data-collapse="no" data-top="300px">rightedge no</div>
+        <div id="div0" class="e_float_bar" data-type="leftedge" data-collapse="yes" data-top="30px">leftedge yes</div>
+        <div class="e_float_bar" data-type="leftedge" data-collapse="no" data-top="330px">leftedge no</div>
+        <!-- TO TOP小火箭
+        <div style="display: none;" id="rocket-to-top">
+            <div style="opacity: 0; display: block;" class="level-2"></div>
+            <div class="level-3"></div>
+        </div> -->
+
+        <script src="http://a.tbcdn.cn/apps/tdata/js/lib/beast/merge.js"></script>
+        <script>
+            (function($){
+                $.use('ui-float.v2',function(){});
+            })(jQuery);
+        </script>
+    </body>
+</html>

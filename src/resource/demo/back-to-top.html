@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>plugin</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #main {
+                width: 960px;
+                margin: 0 auto;
+            }
+            #main p{
+                height: 150px;
+                text-align: center;
+                line-height: 150px;
+                font-size: 100px;
+                font-weight: 700;
+                color: #666;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+        </div>
+
+        <!-- TO TOP小火箭
+        <div style="display: none;" id="rocket-to-top">
+            <div style="opacity: 0; display: block;" class="level-2"></div>
+            <div class="level-3"></div>
+        </div> -->
+
+        <script src="http://a.tbcdn.cn/apps/tdata/js/lib/beast/merge.js"></script>
+        <script>
+            (function($){
+                $.use('ui-float.v2,ui-back-to-top',function(){});
+            })(jQuery);
+        </script>
+    </body>
+</html>

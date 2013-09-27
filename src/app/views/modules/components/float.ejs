@@ -13,33 +13,19 @@
                             <h2 class="cell-title">如何使用</h2>
                             <div class="cell-content">
                                 <pre class="sh_javascript">
-$.use('ui-float',function(){});</pre>
+$.use('ui-float.v2',function(){});</pre>
                             </div>
                         </section>
                         <section class="HTML">
                             <h2 class="cell-title">HTML结构</h2>
                             <div class="cell-content">
                                 <pre class="sh_javascript">
-&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'leftmost','top':100,'isAlwaysShow':false}&quot;&gt;  
-    &lt;a title=&quot;最左边用户满意度调查&quot; href=&quot;#&quot;&gt;最左边用户满意度调查&lt;/a&gt;  
-&lt;/div&gt;</pre>
-                                <pre class="sh_javascript">
-&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'left','top':300,'isAlwaysShow':true}&quot;&gt;  
-    &lt;a title=&quot;左边用户满意度调查&quot; href=&quot;#&quot;&gt;左边用户满意度调查&lt;/a&gt;  
-&lt;/div&gt;</pre>
-                                <pre class="sh_javascript">
-&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'right','top':300,'isAlwaysShow':false}&quot;&gt;  
-    &lt;a title=&quot;右边用户满意度调查&quot; href=&quot;#&quot;&gt;右边用户满意度调查&lt;/a&gt;  
-&lt;/div&gt;</pre>
-                                <pre class="sh_javascript">
-&lt;div class=&quot;fd-float-module&quot; data-config=&quot;{'location':'rightmost','top':100,'isAlwaysShow':true}&quot;&gt;  
-    &lt;a title=&quot;最右边用户满意度调查&quot; href=&quot;#&quot;&gt;最右边用户满意度调查&lt;/a&gt;  
-&lt;/div&gt;</pre>
+&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;leftmost&quot;&nbsp;data-collapse=&quot;yes&quot;&gt;leftmost&nbsp;yes&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;leftmost&quot;&nbsp;data-collapse=&quot;no&quot;&nbsp;data-top=&quot;600px&quot;&gt;leftmost&nbsp;no&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;rightmost&quot;&nbsp;data-collapse=&quot;yes&quot;&gt;rightmost&nbsp;yes&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;rightmost&quot;&nbsp;data-collapse=&quot;no&quot;&nbsp;data-top=&quot;600px&quot;&gt;rightmost&nbsp;no&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;rightedge&quot;&nbsp;data-collapse=&quot;yes&quot;&nbsp;data-top=&quot;30px&quot;&gt;rightedge&nbsp;yes&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;rightedge&quot;&nbsp;data-collapse=&quot;no&quot;&nbsp;data-top=&quot;300px&quot;&gt;rightedge&nbsp;no&lt;/div&gt;<br />&lt;div&nbsp;id=&quot;div0&quot;&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;leftedge&quot;&nbsp;data-collapse=&quot;yes&quot;&nbsp;data-top=&quot;30px&quot;&gt;leftedge&nbsp;yes&lt;/div&gt;<br />&lt;div&nbsp;class=&quot;e_float_bar&quot;&nbsp;data-type=&quot;leftedge&quot;&nbsp;data-collapse=&quot;no&quot;&nbsp;data-top=&quot;330px&quot;&gt;leftedge&nbsp;no&lt;/div&gt;</pre>
                             </div>
                         </section>
                         <section class="demo">
                             <div class="cell-content">
-                                <a class="btn btn-large btn-danger" href="http://jsbin.com/iganuj/3" title="演示demo">demo</a>
+                                <a class="btn btn-large btn-danger" href="/demo/float.v2.html" title="演示demo">demo</a>
                             </div>
                         </section>
                         <section class="config">
@@ -56,22 +42,22 @@ $.use('ui-float',function(){});</pre>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><em>location</em></td>
-                                            <td>显示的位置(leftmost、left、right、rightmost)</td>
+                                            <td><em>data-type</em></td>
+                                            <td>显示的位置类型(leftmost、leftedge、rightedge、rightmost)</td>
                                             <td>String</td>
-                                            <td>left</td>
+                                            <td>leftmost</td>
                                         </tr>
                                         <tr>
-                                            <td><em>top</em></td>
+                                            <td><em>data-top</em></td>
                                             <td>离视窗上方的距离</td>
                                             <td>Number</td>
-                                            <td>220</td>
+                                            <td>0</td>
                                         </tr>
                                         <tr>
-                                            <td><em>isAlwaysShow</em></td>
+                                            <td><em>data-collapse</em></td>
                                             <td>是否无论视窗宽度如何小都要显示浮动条。</td>
                                             <td>Boolean</td>
-                                            <td>false</td>
+                                            <td>yes</td>
                                         </tr>
                                     </tbody>
                                 </table>
